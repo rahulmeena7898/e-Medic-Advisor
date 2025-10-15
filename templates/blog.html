@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <title>Top Health & Wellness Blogs</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+    header {
+      background-color: pink;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section.category {
+      margin-bottom: 3rem;
+    }
+    section.category h2 {
+      border-bottom: 3px solid #4CAF50;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #2e7d32;
+    }
+    .blog-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    article.blog-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    article.blog-card:hover,
+    article.blog-card:focus-within {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgb(0 0 0 / 0.15);
+    }
+    article.blog-card h3 {
+      margin: 0 0 0.75rem;
+      font-size: 1.25rem;
+      color: #1b5e20;
+    }
+    article.blog-card p {
+      flex-grow: 1;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: #555;
+    }
+    article.blog-card a {
+      align-self: flex-start;
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      font-weight: 600;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+      transition: background-color 0.3s ease;
+    }
+    article.blog-card a:hover,
+    article.blog-card a:focus {
+      background-color: #388e3c;
+      outline: none;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+
+
+
+  </head>
+  <body>
+    <header>
+    <h1>Top Health & Wellness Blogs</h1>
+    <p>Explore curated blogs across Fitness, Nutrition, Mental Health, and General Wellness.</p>
+  </header>
+
+  <main>
+    <!-- Fitness Blogs -->
+    <section class="category">
+      <h2>Fitness Blogs</h2>
+      <div class="blog-list">
+        <article class="blog-card">
+          <h3>1. ACE Insights Blog</h3>
+          <p>The American Council on Exercise (ACE) shares articles on yoga, strength training, and exercises for beginners, grounded in reputable guidelines.</p>
+          <a href="https://www.acefitness.org/resources/pros/expert-articles/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>2. The Art of Healthy Living</h3>
+          <p>Offers articles and reviews on exercise supplements, high-intensity interval training, food, nutrition, and general health and wellness tips.</p>
+          <a href="https://artofhealthyliving.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>3. Nerd Fitness</h3>
+          <p>Provides healthy lifestyle advice, an online coaching program, at-home workouts, and free resources from a supportive community.</p>
+          <a href="https://www.nerdfitness.com/start-here/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>4. MyFitnessPal Blog</h3>
+          <p>Shares the latest news and trends on food and nutrition, including healthy recipes, weight management tips, and fitness inspiration.</p>
+          <a href="https://blog.myfitnesspal.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>5. Shape</h3>
+          <p>Features step-by-step workouts, training plans, mental health insights, weight-loss tips, videos, and more.</p>
+          <a href="https://www.shape.com/fitness" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>6. Well+Good</h3>
+          <p>A wellness blog with articles on fitness, nutrition, beauty, and more, featuring interviews with fitness experts and practical wellness tips.</p>
+          <a href="https://www.wellandgood.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Nutrition Blogs -->
+    <section class="category">
+      <h2>Nutrition Blogs</h2>
+      <div class="blog-list">
+        <article class="blog-card">
+          <h3>7. Bites of Wellness</h3>
+          <p>Founded by Samantha Rowland, offering recipes for various diets, workouts, and wellness tips, including how sleep relates to weight loss.</p>
+          <a href="https://bitesofwellness.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>8. Eating Bird Food</h3>
+          <p>Run by Brittany Mullins, a holistic nutritionist sharing healthy recipe creations focused on whole foods, along with wellness and workout articles.</p>
+          <a href="https://www.eatingbirdfood.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>9. Health</h3>
+          <p>Offers nutritionist-researched articles on foods, diets, and nutrition trends, providing tips for leading a healthier lifestyle.</p>
+          <a href="https://www.health.com/nutrition" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>10. Healthline Nutrition</h3>
+          <p>Features daily research-based articles on nutrition and weight loss, explaining the scientific reasoning behind dietary advice.</p>
+          <a href="https://www.healthline.com/nutrition" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>11. Nutrition Stripped®</h3>
+          <p>Founded by Registered Dietitian McKel Kooienga, sharing articles on trending nutrition topics using science to teach about healthy eating.</p>
+          <a href="https://nutritionstripped.com/articles/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>12. Oh She Glows</h3>
+          <p>Features vegan recipes, most of which are also free of gluten, soy, and processed food, accompanied by insights from founder Angela Liddon.</p>
+          <a href="https://ohsheglows.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>13. NutritionFacts.org</h3>
+          <p>Founded by Dr. Michael Greger, providing the latest in nutrition research via videos, blogs, podcasts, and infographics.</p>
+          <a href="http://nutritionfacts.org/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Mental Health Blogs -->
+    <section class="category">
+      <h2>Mental Health Blogs</h2>
+      <div class="blog-list">
+        <article class="blog-card">
+          <h3>14. Calm</h3>
+          <p>From the relaxation app, offering news on meditation research and tips on mindfulness, meditation, and stress mitigation.</p>
+          <a href="https://blog.calm.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>15. DailyOM</h3>
+          <p>Provides wisdom designed to boost mental and spiritual health, including daily encouragement and thought-provoking passages.</p>
+          <a href="https://www.dailyom.com/inspiration/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>16. HealthyPlace</h3>
+          <p>Hosts numerous mental wellness blogs dedicated to specific mental health concerns like ADHD, bipolar disorder, and depression.</p>
+          <a href="https://www.healthyplace.com/blogs" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>17. Find A Therapist</h3>
+          <p>Designed to connect people with mental health professionals, featuring content on improving sleep, brain health, and lowering blood pressure.</p>
+          <a href="https://www.find-a-therapist.com/category/health-wellness/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>18. National Alliance on Mental Illness (NAMI)</h3>
+          <p>Offers mental health support and resources, including a blog covering topics from current events and trauma to racism and mental health.</p>
+          <a href="https://www.nami.org/Blogs/NAMI-Blog/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>19. The Mighty</h3>
+          <p>Focuses on stories and experiences of those with mental health issues, chronic illness, rare diseases, and disability, offering advice and resources.</p>
+          <a href="https://themighty.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>20. Student Minds</h3>
+          <p>A blog for and written by university students, covering mental health issues like eating disorders, depression, and substance use disorder.</p>
+          <a href="https://www.studentmindsblog.co.uk/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>21. Tiny Buddha</h3>
+          <p>Provides "simple wisdom for complex lives," covering mental wellness topics such as love, relationships, mindfulness, and health habits.</p>
+          <a href="https://tinybuddha.com/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Health & General Wellness Blogs -->
+    <section class="category">
+      <h2>Health & General Wellness Blogs</h2>
+      <div class="blog-list">
+        <article class="blog-card">
+          <h3>22. NPR Shots</h3>
+          <p>Features journalism on a wide range of topics, publishing the latest news on health, research, medical treatments, and health policy.</p>
+          <a href="https://www.npr.org/sections/health-shots/" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>23. Well by The New York Times</h3>
+          <p>Features articles on eating, exercise, mindfulness, family, and lifestyle advice, including Q&As with medical experts.</p>
+          <a href="https://www.nytimes.com/section/well" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+
+        <article class="blog-card">
+          <h3>24. Harvard Health Blog</h3>
+          <p>Publishes medical news and articles on topics like exercise, pain management, healthy eating, mental health, and aging.</p>
+          <a href="https://www.health.harvard.edu/blog" target="_blank" rel="noopener">Visit Blog</a>
+        </article>
+      </div>
+    </section>
+  </main>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
